@@ -17,9 +17,12 @@ dependencies:
   # Modern typography
   google_fonts: ^6.2.1
 
+<<<<<<< HEAD
   # Brand SVG icons (Google, GitHub SSO buttons)
   flutter_svg: ^2.0.10+1
 
+=======
+>>>>>>> 9a3fef343dff0c239964b9b7a5b9b2a2490e37ad
   # State management (kept lightweight for the login flow)
   provider: ^6.1.2
 
@@ -33,4 +36,7 @@ flutter:
 
   assets:
     - assets/images/
+<<<<<<< HEAD
     - assets/icons/
+=======
+>>>>>>> 9a3fef343dff0c239964b9b7a5b9b2a2490e37ad
