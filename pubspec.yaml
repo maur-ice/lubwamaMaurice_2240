@@ -1,0 +1,36 @@
+name: lubwama_maurice_app
+description: "A professional Flutter application by Maurice Lubwama."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Icons
+  cupertino_icons: ^1.0.6
+
+  # Modern typography
+  google_fonts: ^6.2.1
+
+  # Brand SVG icons (Google, GitHub SSO buttons)
+  flutter_svg: ^2.0.10+1
+
+  # State management (kept lightweight for the login flow)
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
