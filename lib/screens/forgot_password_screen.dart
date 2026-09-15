@@ -553,5 +553,5 @@ class _PulsingBubbleState extends State<_PulsingBubble>
         child: Icon(widget.icon, color: Colors.white, size: 20),
       ),
     );
-  }
+  } //
 }
